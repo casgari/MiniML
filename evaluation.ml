@@ -217,8 +217,6 @@ let eval_e _ =
    `miniml.ml` uses a call to the single function `evaluate` defined
    here. Initially, `evaluate` is the trivial evaluator `eval_t`. But
    you can define it to use any of the other evaluators as you proceed
-   to implement them. (We will directly unit test the four evaluators
-   above, not the `evaluate` function, so it doesn't matter how it's
-   set when you submit your solution.) *)
+   to implement them.  *)
    
 let evaluate = eval_s ;;
